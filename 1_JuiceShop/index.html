@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1_JuiceShop</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="kiosk.js"></script>
+</head>
+<body>
+    <!-- title of the page -->
+    <h1>Welcome to our Juice Shop!</h1>
+
+    <!-- table for the juice menu -->
+    <table align="left" class="juice">
+    <tr>
+        <td  colspan="3">
+            <h2>Give yourself a boost!</h2>
+        </td>
+    </tr>
+
+    <!-- to print the "Apple Juice" with button "Add too cart" in main menu table -->
+    <tr>
+        <td><h4>Apple Juice - $ <span id="appleJuiceprice">5</span></h4></td>
+        <td><p id="appleJuice"></p></td>
+        <td><button onclick="getAppleJuice()">Add to cart</button></td>
+    </tr>
+
+     <!-- to print the "Orange Juice" with button "Add too cart" in main menu table -->
+    <tr>
+        <td><h4>Orange Juice - $<span id="OrangeJuiceprice">6</span></h4></td>
+        <td><p id="orangeJuice"></p></td>
+        <td><button onclick="getOrangeJuice()">Add to cart</button></td>
+    </tr>
+
+     <!-- to print the "Mango Juice" with button "Add too cart" in main menu table -->
+    <tr>
+        <td><h4>Mango Juice - $<span id="mangoJuiceprice">8</span></h4></td>
+        <td><p id="mangoJuice"></p></td>
+        <td><button onclick="getMangoJuice()">Add to cart</button></td>
+    </tr>
+
+     <!-- to print the "Cranberry Juice" with button "Add too cart" in main menu table -->
+    <tr>
+        <td><h4>Cranberry Juice - $<span id="cranberryJuiceprice">7</span></h4></td>
+        <td><p id="cranberryJuice"></p></td>
+        <td><button onclick="getCranberryJuice()">Add to cart</button></td>
+    </tr>
+
+     <!-- to print the "Beetroot Juice" with button "Add too cart" in main menu table -->
+    <tr>
+        <td><h4>Beetroot Juice - $<span id="beetJuiceprice">8</span></h4></td>
+        <td><p id="beetJuice"></div></p>
+        <td><button onclick="getBeetJuice()">Add to cart</button></td>
+    </tr>
+
+     <!-- to print the button "Checkout" in main menu table -->
+    <tr>        
+        <td colspan="3"><button id="checkOutButton" style="display: none;" onclick="checkOut()">Check Out</button></td>
+    </tr>
+    </table>
+
+    <div id="receipt">
+       <h3>Receipt</h3>
+    </div>
+
+</body>
+</html>

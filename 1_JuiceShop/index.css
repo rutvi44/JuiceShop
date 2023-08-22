@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.juice{
+    border: 4px double black;
+    width: 400px;
+    height: 300px;
+    margin-left: 5%;
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+}
+h4{
+    margin-left: 5px;
+}
+#checkOutButton{
+    margin-left: 42%;
+    padding: 1%;
+    background-color:rgb(89, 221, 221);
+}
+#receipt{
+    position: relative;
+    border: 4px double black;
+    width: fit-content;
+    margin-left: 55%;
+    padding: 20px;
+}
+button{
+    margin-left: 15%;
+}
